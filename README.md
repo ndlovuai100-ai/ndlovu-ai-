@@ -1,35 +1,23 @@
-# Ndlovu AI
+ # Ndlovu AI Temple OS (Ndlovu Core)
 
-Ndlovu AI is an offline-first modular AI framework. It serves as the foundation slab for all Oracode, Nkhudu Code, and future oracle projects.
+Ndlovu Core is the sovereign core for the Ndlovu AI Temple OS.  
+Architecture-first. Offline-first. Cloud-amplified. Agent-orchestrated.
 
-## Agents
-- **Nkhudu**: Core executor and system manager  
-- **Kamara**: Strategist and oracle logic  
-- **Assistant**: Supportive reasoning and memory handler
+## What this repo is
+- **Ndlovu Core** (command spine + doctrine + agent registry)
+- **Agents** (roles as functions with authority boundaries)
+- **Adapters** (plugin apps like JobHub, VR Chord Studio)
+- **ORACODE** (order, geometry, sequence, legacy)
 
-## Folder Structure
-- `ndlovu_core/`: Foundation slab (core, registry, config)  
-- `nkhudu_code/`: Core logic and workflows  
-- `project_codes/`: Project modules and experiments  
-- `oracode/`: Oracle-style reasoning modules  
-- `data/`: Local memory and state
+## Repo Structure
+- `ndlovu_core/` – the core system code (offline‑first)
+- `docs/` – doctrine, agent registry, adapter interface rules
+- `scripts/` – setup and utility scripts
 
-## CLI Usage
-Run the CLI to interact with Ndlovu AI:
+## Quick Start (placeholder)
+This repo is currently in **blueprint‑to‑build** mode.  
+Next milestone: initialize a minimal command‑center skeleton.
 
-```bash
-python cli.py
-```
-
-Type commands at the `ndlovu>` prompt. Use `exit` to shut down.
-
-## Current Status
-- Core CLI **is operational**  
-- Agents **are registered and loaded**  
-- Ready for integration of project bricks
-
-## Roadmap
-- **Add** Oracode modules  
-- **Expand** project_codes  
-- **Implement** offline-first intelligence  
-- **Integrate** online functionality later
+## Security
+Never commit API keys. Use `.env` locally and `.env.example` for templates.  
+See `SECURITY.md`.
